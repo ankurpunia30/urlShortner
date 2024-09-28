@@ -33,9 +33,9 @@ A simple URL shortener service that takes long URLs and converts them into short
 
 ## API Endpoints
 
-- `POST /api/shorten` - Shorten a long URL
+- `POST /url` - Shorten a long URL
 - `GET /:shortUrl` - Redirect to the original URL
-
+- `GET /url/analytics/:shortUrl` - Analytics of short url
 ## Contributing
 
 1. Fork the repository
