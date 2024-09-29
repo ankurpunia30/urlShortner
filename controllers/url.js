@@ -14,6 +14,8 @@ async function hangleGenerateShortUrl(req,res){
         redirectUrl:body.url,
         visitHistory:[],
     })
+    return res.render("home",{
+        id:shortID});
     return res.status(201).json({
         shortId:shortID
     });
